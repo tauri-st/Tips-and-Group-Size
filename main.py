@@ -1,5 +1,6 @@
 import csv
 import numpy as np
+import matplotlib.pyplot as plt
 
 with open("tips.csv", "r") as file:
   data = csv.reader(file,delimiter=",")
