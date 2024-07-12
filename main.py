@@ -29,3 +29,5 @@ print(f"The average bill amount is: ${round(np.mean(bills), 2)}")
 print(f"The median bill amount is: ${round(np.median(bills), 2)}")
 print(f"The smallest bill amount is: ${round(np.min(bills), 2)}")
 print(f"The largest bill is ${round(np.max(bills), 2)}")
+
+plt.scatter(size, tips_percentage color="#8A2BE2")
