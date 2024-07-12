@@ -34,3 +34,5 @@ plt.scatter(size, tips_percentage color="#8A2BE2")
 
 plt.xlabel("Dinner Party Size")
 plt.ylabel("Tip Percentage")
+
+plt.title("Tips per party size and bill")
