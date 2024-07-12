@@ -6,3 +6,11 @@ with open("tips.csv", "r") as file:
   headers = next(data)
   data_list = list(data)
   data_numpy = np.array(data_list)
+
+#select every row (:), and then grabbing index position 6, which is the 7th column of the dataset
+size = data_numpy[:,6]
+
+#tips will have calculations performed on it, so turn it into a numpy array
+#pass data_numpy, select every row (:), and grabbing index position 1
+#You’re setting the dtype, or data type, to float because the data in the CSV file is a string
+tips = np.array(data_numpy[:,1],dtype=float)
