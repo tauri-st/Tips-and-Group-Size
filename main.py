@@ -26,3 +26,4 @@ tips_percentage = tips/bills*100
 
 print(f"The average bill amount is: ${round(np.mean(bills), 2)}")
 print(f"The median bill amount is: ${round(np.median(bills), 2)}")
+print(f"The min bill amount is: ${round(np.min(bills), 2)}")
