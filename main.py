@@ -14,3 +14,12 @@ size = data_numpy[:,6]
 #pass data_numpy, select every row (:), and grabbing index position 1
 #You’re setting the dtype, or data type, to float because the data in the CSV file is a string
 tips = np.array(data_numpy[:,1],dtype=float)
+
+#print(tips)
+#print(size)
+
+bills = np.array(data_numpy[:,0],dtype=float)
+
+#print(bills)
+
+tips_percentage = tips/bills*100
