@@ -30,9 +30,12 @@ print(f"The median bill amount is: ${round(np.median(bills), 2)}")
 print(f"The smallest bill amount is: ${round(np.min(bills), 2)}")
 print(f"The largest bill is ${round(np.max(bills), 2)}")
 
-plt.scatter(size, tips_percentage color="#8A2BE2")
+plt.scatter(size, tips_percentage, color="#8A2BE2")
 
 plt.xlabel("Dinner Party Size")
 plt.ylabel("Tip Percentage")
 
 plt.title("Tips per party size and bill")
+
+plt.savefig("tips_per_party.png")
+
