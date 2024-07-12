@@ -31,3 +31,6 @@ print(f"The smallest bill amount is: ${round(np.min(bills), 2)}")
 print(f"The largest bill is ${round(np.max(bills), 2)}")
 
 plt.scatter(size, tips_percentage color="#8A2BE2")
+
+plt.xlabel("Dinner Party Size")
+plt.ylabel("Tip Percentage")
