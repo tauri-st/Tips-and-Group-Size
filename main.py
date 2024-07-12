@@ -24,4 +24,5 @@ bills = np.array(data_numpy[:,0],dtype=float)
 
 tips_percentage = tips/bills*100
 
-print(f"The average bill amount is: {np.mean(bills)}")
+print(f"The average bill amount is: ${round(np.mean(bills), 2)}")
+print(f"The median bill amount is: ${round(np.median(bills), 2)}")
